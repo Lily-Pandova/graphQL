@@ -1,0 +1,28 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "\"graphQL tutorial\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "Liliya Pandova",
+  "license": "ISC",
+  "dependencies": {
+    "casual": "^1.6.2",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.0.0",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.33.0",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.2"
+  }
+}
